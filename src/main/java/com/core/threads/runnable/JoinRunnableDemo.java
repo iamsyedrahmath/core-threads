@@ -8,8 +8,9 @@ public class JoinRunnableDemo {
 
         t1.start();
         t2.start();
-        t1.join();//to observe the behaviour of join() comment/uncomment the t1.join() statement and check the out put. t1 thread should complete before main thread if it is uncomment
-
+        //to observe the behaviour of join() comment/uncomment the t1.join() statement and check the out put.
+        // t1 thread should complete before main thread if it is uncomment
+        t1.join();
         System.out.println("End of main Thread");
     }
 }
