@@ -1,2 +1,4 @@
+#added comment
 jdbc.username=testuser
 jdbc.password=password
+
